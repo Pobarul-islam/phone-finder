@@ -1,0 +1,43 @@
+.card-box{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.imgBox{
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.card-textBox{
+
+    padding: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+#failed-text{
+    display: none;
+    text-align: center;
+}
+.faileText{
+    text-align: center;
+    margin-left: 30%;
+}
+

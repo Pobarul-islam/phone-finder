@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Explore</title>
+
+
+    <!-- Bootstrap css link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome link  -->
+    <script src="https://kit.fontawesome.com/072168bee8.js" crossorigin="anonymous"></script>
+    <!-- Coustom css  -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="navbar bg-primary">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-white fs-4" href="#">Phone Explore</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- input field section  -->
+    <div class="container text-center mt-5">
+      <h1>Search Your Phone</h1>
+      <div class="mt-4">
+        <!-- search input field  -->
+        <input
+          id="search-field"
+          class="p-2 w-50 border-success"
+          type="text"
+          placeholder="Search..."/> 
+          <button onclick="searchBtn()" id="phoneBtn" class="btn btn-primary mb-2 p-2">Submit Text</button>
+         
+        <br />
+     
+        <div id="faild">
+          <!-- <h3 id="failed-text">Please try again</h3> -->
+
+        </div>
+
+        <!-- search button  -->
+        
+      </div>
+    </div>
+
+ <!-- phone details section  -->
+   <div id="phone-information" class=" search-result row row-cols-1 row-cols-md-3 g-4 card-box">
+ 
+     
+    </div>
+ 
+    <!-- Phone Card show section -->
+
+    <div id="phone-container" class=" search-result row row-cols-1 row-cols-md-3 g-4 card-box">
+     
+    </div>
+
+
+
+    <!-- bootstrap js link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom js link  -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
